@@ -6,10 +6,13 @@
   "types": "./dist/Dependency.js",
   "scripts": {
     "build": "tsc",
-    "prepare": "tsc",
+    "": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.0.1"
+  }
 }
