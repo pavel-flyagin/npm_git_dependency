@@ -2,11 +2,11 @@
   "name": "npm_git_dependency",
   "version": "1.0.0",
   "description": "descr",
-  "main": "./dist/Dependency.js",
-  "types": "./dist/Dependency.d.ts",
+  "main": "dist/Dependency.js",
+  "types": "dist/Dependency.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepare": "echo hi > some_file.js",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
