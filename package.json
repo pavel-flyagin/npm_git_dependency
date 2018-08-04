@@ -1,21 +1,18 @@
 {
-  "name": "dep",
+  "name": "npm_git_dependency",
   "version": "1.0.0",
-  "description": "",
+  "description": "descr",
   "main": "./dist/Dependency.js",
-  "types": "./dist/Dependency.js",
+  "types": "./dist/Dependency.d.ts",
   "scripts": {
     "build": "tsc",
     "prepare": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "author",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^3.0.1"
-  },
-  "dependencies": {
-    "react": "^16.4.2"
   }
 }
